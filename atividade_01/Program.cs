@@ -1,5 +1,7 @@
-// See https://aka.ms/new-console-template for more information
+﻿// See https://aka.ms/new-console-template for more information
 using System;
+
+Console.Clear();
 
 //Problema 1
 
@@ -17,6 +19,7 @@ Console.WriteLine("Problema 1:");
 Console.WriteLine(v[3]);
 
 Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+Console.ReadKey();
 
 //Problema 2
 
@@ -30,7 +33,7 @@ while(a<6){
 }
 
 Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-
+Console.ReadKey();
 //Problema 3
 
 Console.WriteLine("Problema 3:");
@@ -44,4 +47,4 @@ while(b<a){
     Console.WriteLine(v[b]);
     b+=2;
 }
-
+Console.ReadKey();
